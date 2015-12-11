@@ -7,8 +7,12 @@
  *                            between 1 and `ceiling`
  */
 module.exports = function( ceiling ) {
-  // do work here
-
-
+  function createArr ( ceiling ) {
+    var arr = [];
+      for ( var i = 1; i <= ceiling; i++) {
+        arr.push( i );
+      }
+      return arr;
+  }
   return 0;
 };
